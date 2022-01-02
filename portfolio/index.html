@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="webデザイナー、稲田景子のポートフォリオ">
+    <!-- to make CSS work in the same way on all browsers -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+    <link rel="stylesheet" type="text/css" href="https://csshake.surge.sh/csshake.min.css">
+    <link rel="stylesheet" type="text/css" href="http://csshake.surge.sh/csshake-slow.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Keiko Inada Portfolio</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="" alt="">
+        </div>
+        <button class="nav-toggle" aria-label="toogle navigation">
+            <span class="hamburger"></span>
+        </button>
+        <nav class="nav">
+            <ul class="nav_list">
+                <li class="nav_item"><a href="#home" class="nav_link">Home</a></li>
+                <li class="nav_item"><a href="#services" class="nav_link">Services</a></li>
+                <li class="nav_item"><a href="#about" class="nav_link">Profile</a></li>
+                <li class="nav_item"><a href="#me" class="nav_link">Contact Me</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Introduction -->
+    <section class="intro" id="home">
+        <h1 class="section_title section_title-intro">
+            <strong>Keiko Inada</strong>
+        </h1>
+        <p class="section_subtitle section_subtitle-intro">フリーランス Webデザイナー</p>
+        <img src="img_off.jpg" alt="a fake picture of Keiko Inada" class="intro_img">
+        <img src="img_on.jpg" alt="a picture of Keiko Inada" class="intro_img2">
+    </section>
+
+    <!-- Message -->
+    <section class="myJob" id="msg">
+        <h2 class="shake-slow">あなたをみんなに知ってもらう手助けをさせて下さい &excl;</h2>
+        <div class="slider slideshow">
+        <p>私の作るデザインで一人でも多くの人があなたを知ってもらうこと、それが私の仕事です。</p>
+        <p>あなたの想いも一緒に広めます。</p>
+        </div>
+    </section>
+
+    <!-- My services -->
+    <section class="my-services" id="services">
+        <h2 class="section_title section_title-services">Services</h2>
+        <div class="services">
+            <div class="service">
+                <h3>デザイン業務</h3>
+                <p>Photoshop，Illustrator，Adobe XD，Figmaを使用しWebデザインはもちろんのこと、ポスター、チラシ、名刺等の作成。</p>
+            </div>
+            <div class="service">
+                <h3>Web作成</h3>
+                <p>HTML, CSS, JavaScript, jQueryを使用したコーディング業務。設計からデザイン、コーディングまで一貫して承ります。</p>
+            </div>
+        </div>
+        <!-- <a href="#work" class="btn">My Work</a> -->
+    </section>
+
+    <!-- About me -->
+    <div class="contact">
+        <section class="about-me" id="about">
+            <h2 class="section_title section_title-about">Profile</h2>
+            <p class="section_subtitle section_subtitle-about">自然大国のニュージーランド在住</p>
+
+            <div class="about-me_body">
+                <p>初めまして。フリーランス Webデザイナーの稲田景子と申します。</p>
+                <p>東京の大学を卒業後、IT会社へ就職し三年半務めた後、テレビを見て平和過ぎると思っていたニュージーランドへ飛びました。それから縁があって今現在もニュージーランドに居ます。十年ちょっと海運業界で務め、2021年よりフリーランスのWebデザイナーとなり今に至ります。</p>
+                <p>自然と犬が大好き&excl; 常に新しいことに挑戦&excl;&excl; がモットーです。</p>
+                <p>今年は高所恐怖症にも関わらずスカイダイビング。。。一生に一度と決めていたので、ニュージーランドで一番の高さ、185,00ft(5,639m)からの落下。パラシュートが開くまで約75秒ものあいだ急降下、、、そして今の私です。</p>
+            </div>
+
+            <!-- <img src="c2-33.jpg" alt="" class="about-me_img"> -->
+            <img src="img_off2.jpg" alt="a picture of Keiko Inada" class="about-me_img">
+
+        </section>
+        <div class="button">
+            <a href="https://form.run/@k-inada--1639386411" class="btn" id="me">Contact Me</a>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>少しでも気になったら </p>
+        <p class="footer_link shake-chunk shake-constant">お気軽にご連絡ください&excl;</p>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
